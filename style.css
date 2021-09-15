@@ -1,0 +1,96 @@
+body{
+    margin: 0 auto;
+}
+.imgup{
+    position: relative;
+    height: 41rem;
+}
+.pic{
+    background: linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 120%);
+    background: -webkit-linear-gradient(135deg, hsla(110, 74%, 53%, 1) 0%, hsla(51, 100%, 50%, 1) 80%, hsla(45, 100%, 50%, 1) 120%);
+    display: flex;
+   justify-content: flex-end;
+    flex-direction: row;
+    width: 50%;
+    height: 45rem;
+
+}
+.left{
+
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.right{
+
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.dots{
+    margin-top: 6rem;
+    margin-left: 3rem;
+    font-size: 5rem;
+}
+.d1{
+    color: yellow;
+}
+.d2{
+    color: greenyellow;
+}
+.bp{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: gray;
+}
+.h1{
+    font-size: 4rem;
+    color: yellow;
+}
+.h2{
+    font-size: 4rem;
+    color: greenyellow;
+}
+.header{
+    margin-left: 3rem;
+}
+
+.text{
+    background: white;
+    width: 50%;
+    height: 45rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.main {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.button{
+    background-color: greenyellow;
+    margin-left: 3rem;
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    border-radius: 9px;
+
+}
+.button:hover{
+    background-color: dodgerblue;
+    transition: 1500ms;
+}
+.under{
+    margin-left: 3rem;
+    color: gray;
+}
